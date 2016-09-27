@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regular Layout</title>
+	<style>
+		.container {
+			background: red;
+			width: 100vw;
+		}
+		header {
+			background: yellow;
+			height: 200px;
+		}
+		.main-body {
+			background: purple;
+			height: 800px;
+			display: flex;
+		}
+		.column-left {
+			background: blue;
+			flex: 1;
+			border-right: 2px solid #fff;
+		}
+		.column-right {
+			flex: 5;
+			background: red;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+
+		</header>
+		<div class="main-body">
+			<div class="column-left"></div>
+			<div class="column-right">
+				<h1>Centered</h1>
+
+			</div>
+	
+		</div>
+		
+
+	</div>
+
+</body>
+</html>

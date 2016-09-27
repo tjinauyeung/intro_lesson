@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Block element</title>
+	<style>
+		* { 
+			font-size: 150%; 
+		}
+		.title { 
+			background: none; 
+			font-family: sans-serif;
+			display: inline-block;
+		}
+		h1 { 
+			background: yellow; 
+		}
+		p { 
+			background: grey; 
+		}
+		a { 
+			background: red; 
+		}
+		span { 
+			background: green; 
+		}
+		.navigation {
+			list-style-type: none;
+			background: black;
+			color: white;
+			display: block;
+		}
+		li {
+			display: inline-block;
+			margin-left: 20px;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+
+
+	<h1 class="title">Display Block and Inline</h1>
+	<strong>I come on the same line.</strong>
+
+
+
+
+	<h1>I'm a block element - I span the whole width</h1>
+	<p>Me too</p>
+	I'm an <a href="#">inline</a> element. <span>Me too</span>.
+	<ul class="navigation">
+		<li>home</li>
+		<li>about</li>
+		<li>work</li>
+	</ul>
+</body>
+</html>

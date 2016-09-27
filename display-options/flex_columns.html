@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display flex</title>
+	<style>
+		body {
+			margin: 0;
+			color: white;
+			font-size: 50px;
+			font-family: sans-serif;
+		}
+		.flex_container {
+			background: yellow;
+			display: flex;
+			align-items: stretch;
+			justify-content: stretch;
+			width: 100vw;
+			height: 100vh;
+		}
+		.flex_column_left {
+			background: red;
+			flex: 1;
+		}
+		.flex_column_right {
+			background: blue;
+			flex: 1;
+		}
+	</style>
+</head>
+<body>
+	<div class="flex_container">
+		<div class="flex_column_left">Column left</div>
+		<div class="flex_column_right">Column right</div>
+	</div>
+</body>
+</html>
